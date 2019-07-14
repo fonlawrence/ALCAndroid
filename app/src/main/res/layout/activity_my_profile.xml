@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:id="@+id/image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FON LAWRENCE"
+        android:layout_below="@id/image"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:id="@+id/text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/text"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Track: Android"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country: Cameroon"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: lawrencefoncj@gmail.com"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone #: +237 651402159"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slack Name: @fonlawrence"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
